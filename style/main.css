@@ -10,6 +10,20 @@ html, body {
 body {
   margin: 80px 0; }
 
+/* Minimal Css Required */
+#viewport{
+    width:900px;
+    height:450px;
+    position:relative;
+    overflow:hidden;
+    margin:0 auto;
+    background:#111111  ;
+}
+ 
+#wall{
+    z-index:1;
+}
+
 input {
   display: inline-block;
   background: #8f7a66;
